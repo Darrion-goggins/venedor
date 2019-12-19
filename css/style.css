@@ -1,0 +1,283 @@
+@media (min-width: 768px) and (max-width: 1023px){
+    .herotext h2{
+        display: none;
+    }
+    .interface{
+        display: none;
+    }
+    .herotext h3{
+        display: none;
+    }
+    .herobutton{
+        display: none;
+    }
+    .herotext p{
+        display: none;
+    }
+    .likebutton{
+        display: none;
+    }
+    .facebooklink{
+        display: none;
+    }
+    .pricing{
+        display: none;
+    }
+    
+}
+@media (min-width: 1024px) and (max-width: 1199px){
+    .herotext h2{
+        top: 195px;
+        right: 35px;
+    }
+    .herobutton{
+        bottom: 95px;
+        right: 125px;
+    }
+    .pricing{
+        bottom: 80px;
+        right: 10px;
+    }
+    .likebutton{
+        right: 40px;
+    }
+    .facebooklink{
+        display: none;
+    }
+}
+.logostart{
+    border-radius: 50%;
+    background: aquamarine;
+    color: white;
+}
+.hub{
+    margin-top: 20px;
+}
+.hub ul{
+    padding: 0;
+    list-style: none;
+}
+.hub li{
+    font-size: 17px;
+    float: left;
+    margin-left: 10px;
+}
+.logoend{
+    color: aquamarine;
+}
+.topbar{
+    position: relative; 
+}
+.currency{
+    font-size: 12px;
+    display: inline;
+}
+.languagedropdown{
+    font-size: 12px;
+    display: inline;
+}
+.shoppingbutton{
+    color: white;
+    background: aquamarine;
+    margin-top: 30px;
+    padding: 0;
+}
+.topsearch{
+    margin-top: 35px;
+}
+.topsearch input{
+    height: 25px;
+    width: 70px;    
+}
+.topnav ul{
+    padding: 0;
+    list-style: none;
+}
+.topnav li{
+    margin-left: 5px;
+    display: inline;
+}
+.interface{
+    position: absolute;
+    top: 0; left: 0;
+    font-size: 10px;
+    background: lightgrey;
+    width: 100%;
+    border-top: thick solid aquamarine;
+    float: left;
+}
+.interface p{
+    text-align: right;
+}
+.hero{
+    width: 100%;
+    margin-top: 25px;
+}
+.herotext{
+    position: relative;
+}
+.herotext span{
+    border: thick solid aquamarine;
+    background: aquamarine;   
+}
+.herotext h2{
+    background: rgb(34, 34, 34);
+    position: absolute;
+    color: white;
+    top: 200px; right: 140px;
+}
+.herotext p{
+    text-align: center;
+    width: 30%;
+    color: whitesmoke;
+    position: absolute;
+    top: 255px; right: 20px;
+    
+}
+.herobutton{
+    padding: 15px;
+    border-radius: 5px;
+    background: rgb(82, 81, 81);
+    color: white;
+    position: absolute;
+    bottom: 467px; right: 200px;
+}
+.welcome p{
+    margin: auto;
+}
+.sidedecoration{
+    border-left: thick solid aquamarine;
+}
+.sidedecoration span{
+    margin-left: 5px;
+}
+.sampleproducts{
+    position: relative;
+}
+.sampleproducts img{
+    height: 200px;
+    width: 200px;
+}
+.discountbanner{
+    position: absolute;
+    background: magenta;
+    padding: 5px;
+    color: white;
+}
+.pricing{
+    position: absolute;
+    bottom: 50px; right: 65px;
+    background: aquamarine;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 25px;
+}
+.about p{
+    line-height: 5;
+}
+.about img{
+    margin: auto;
+}
+.pricing p{
+    text-align: center;
+    margin-top: 10px;
+}
+.productname p{
+    font-size: 18px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.productbutton{
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.cartbutton{
+    background: rgb(34, 34, 34);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.services img{
+    height: 200px;
+    width: 200px;
+    margin-top: 25px;
+}
+.moreproducts img{
+    height: 200px;
+    width: 200px;
+}
+.newbanner{
+    position: absolute;
+    color: white;
+    background: aquamarine;
+    font-size: 30px;
+}
+.signupbar{
+    margin-top: 20px;
+    background: lightgrey;
+}
+.signupbar p{
+    font-size: 25px;
+}
+.emailinput{
+    margin-top: 8px;
+    float: right;
+}
+.submitbutton{
+    background: rgb(34, 34, 34);
+    color: white;
+}
+.email{
+    border: thick solid yellow;
+}
+.footer{
+    background: rgb(64, 63, 68);
+    color: whitesmoke;
+}
+.likebutton{
+    position: absolute;
+    top: 20px; right:100px;
+    background: aquamarine;
+    color: white;
+}
+.facebooklink p{
+    font-size: 15px;
+    text-align: center;
+    widows: 100%;
+}
+.footer ul{
+    list-style: none;
+    margin-right: 10px;
+}
+.footer li::before{
+    content: "• ";
+    color: aquamarine;
+}
+.closing ul{
+    list-style: none;
+}
+.closing li{
+    display: inline;
+}
+.closing{
+    border-top: thin solid rgb(55, 54, 58);
+    background: rgb(64, 63, 68);
+}
+.closing p{
+    color: lightgray;
+}
+a{
+    color: lightslategray;
+    text-decoration: none;
+}
+button:hover{
+    background: aquamarine;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+}
